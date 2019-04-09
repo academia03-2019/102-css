@@ -13,14 +13,22 @@ nav a{
     text-decoration: none;
     font-family: 'Montserrat', sans-serif;
 }
+
 nav a:hover{
     color: rgb(255, 173, 97);
     text-decoration: underline;
 }
+
 nav a:nth-child(1){
     color: blue;
     font-size: 22pt;
     font-weight: 900;
+}
+
+header{
+    height: 400px;
+    background-image: url("images/bannerPerry.jpg");
+    background-size: cover;
 }
 
 section{
