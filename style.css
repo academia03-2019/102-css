@@ -24,7 +24,7 @@ nav a:nth-child(1){
 }
 
 section{
-    height: 300px;
+    height: 200px;
     margin-top: 30px;
     display: flex;
     justify-content: center;
@@ -63,4 +63,22 @@ div input:nth-child(4){
     box-shadow: 1px 0px 9px grey;
     color: rgb(246, 142, 44);
     font-weight: 900;
+}
+
+footer{
+    width: 98.8vw;
+    height: 100px;
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer div{
+    width: 150px;
+    display: flex;
+    justify-content: space-between;
+}
+footer div img{
+    width: 15px;
+    height: 15px;
 }
